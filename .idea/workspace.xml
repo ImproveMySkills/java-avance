@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0c74cd-7ba6-450c-9c78-4a8f6afb30f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/concurrents/CyclicBarrierExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/concurrents/ReadWriteLockExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/concurrents/SemaphoreExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/concurrents/SharedData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/discovery/DynamicInvocationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/discovery/ReflectionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/concurrents/Ressources.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
