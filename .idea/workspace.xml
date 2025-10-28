@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0c74cd-7ba6-450c-9c78-4a8f6afb30f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/classloaders/ClassLoaderExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/completatblefuture/CompletableFutureExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/cyclicbarrier/CyclicBarrierExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/discovery/ReflectionDiscoveryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/dynamicinstanciation/DynamicInstantiationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/forkjoin/ForkJoinExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/reentrantreadwritelock/SharedExclusiveLockExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/semaphore/SemaphoreExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/classloaders/MyClassLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/concurrents/ConcurrentHashMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/concurrents/ConcurrentHashMapExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/concurrents/CopyOnWriteArrayListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/concurrents/CopyOnWriteArrayListExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/forkjoin/ForkJoinExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/forkjoin/ForkJoinExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +50,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CompletableFutureExample">
+  <component name="RunManager" selected="Application.ForkJoinExample">
     <configuration name="CompletableFutureExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.improvemyskills.javaavance.completatblefuture.CompletableFutureExample" />
       <module name="java-avance" />
@@ -98,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunnableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.improvemyskills.javaavance.concurrents.RunnableExample" />
+    <configuration name="ForkJoinExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.improvemyskills.javaavance.forkjoin.ForkJoinExample" />
       <module name="java-avance" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.improvemyskills.javaavance.concurrents.*" />
+          <option name="PATTERN" value="com.improvemyskills.javaavance.forkjoin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ForkJoinExample" />
         <item itemvalue="Application.CompletableFutureExample" />
         <item itemvalue="Application.ExampleWithoutSynchronized" />
         <item itemvalue="Application.ControlledTask" />
         <item itemvalue="Application.ThreadExample" />
-        <item itemvalue="Application.RunnableExample" />
       </list>
     </recent_temporary>
   </component>

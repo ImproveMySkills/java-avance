@@ -1,5 +1,6 @@
 package com.improvemyskills.javaavance.forkjoin;
 
+import java.time.LocalDateTime;
 import java.util.concurrent.RecursiveTask;
 import java.util.concurrent.ForkJoinPool;
 
@@ -33,11 +34,20 @@ class SumTask extends RecursiveTask<Long> {
 
 public class ForkJoinExample {
     public static void main(String[] args) {
-        int[] numbers = new int[100];
+        int[] numbers = new int[1000000000];
         for (int i = 0; i < numbers.length; i++) numbers[i] = i + 1;
 
         ForkJoinPool pool = new ForkJoinPool();
+        System.out.println("Beginning fork "+ LocalDateTime.now());
         long result = pool.invoke(new SumTask(numbers, 0, numbers.length));
+        System.out.println("End fork "+ LocalDateTime.now());
         System.out.println("Somme = " + result);
+
+
+        long somme = 0;
+        System.out.println("somme began "+LocalDateTime.now());
+        for (int i = 0; i < numbers.length; i++) somme += numbers[i];
+        System.out.println("Somme = " + somme);
+        System.out.println("somme began "+LocalDateTime.now());
     }
 }
