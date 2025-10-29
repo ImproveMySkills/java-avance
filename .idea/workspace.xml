@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0c74cd-7ba6-450c-9c78-4a8f6afb30f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/classloaders/MyClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/classloaders/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/patternmatching/PatternMatchingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/patternmatching/SwitchExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/patternmatching/SwitchPatternMatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/patternmatching/SwitchYieldExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/forkjoin/ForkJoinExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/forkjoin/ForkJoinExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/classloaders/MyClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/classloaders/MyClassLoader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,29 +52,19 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "21",
     "last_opened_file_path": "C:/Users/ahabouba/IdeaProjects/java-avance",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ForkJoinExample">
+  <component name="RunManager" selected="Application.SwitchPatternMatching">
     <configuration name="CompletableFutureExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.improvemyskills.javaavance.completatblefuture.CompletableFutureExample" />
       <module name="java-avance" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.improvemyskills.javaavance.completatblefuture.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ControlledTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.improvemyskills.javaavance.concurrents.ControlledTask" />
-      <module name="java-avance" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.improvemyskills.javaavance.concurrents.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +98,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.improvemyskills.javaavance.concurrents.ThreadExample" />
+    <configuration name="MyClassLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.improvemyskills.javaavance.classloaders.MyClassLoader" />
       <module name="java-avance" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.improvemyskills.javaavance.concurrents.*" />
+          <option name="PATTERN" value="com.improvemyskills.javaavance.classloaders.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,13 +113,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SwitchPatternMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.improvemyskills.javaavance.patternmatching.SwitchPatternMatching" />
+      <module name="java-avance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.improvemyskills.javaavance.patternmatching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SwitchPatternMatching" />
+      <item itemvalue="Application.CompletableFutureExample" />
+      <item itemvalue="Application.ExampleWithoutSynchronized" />
+      <item itemvalue="Application.ForkJoinExample" />
+      <item itemvalue="Application.MyClassLoader" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SwitchPatternMatching" />
+        <item itemvalue="Application.MyClassLoader" />
         <item itemvalue="Application.ForkJoinExample" />
         <item itemvalue="Application.CompletableFutureExample" />
         <item itemvalue="Application.ExampleWithoutSynchronized" />
-        <item itemvalue="Application.ControlledTask" />
-        <item itemvalue="Application.ThreadExample" />
       </list>
     </recent_temporary>
   </component>

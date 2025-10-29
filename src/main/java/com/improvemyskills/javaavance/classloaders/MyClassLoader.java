@@ -30,11 +30,13 @@ public class MyClassLoader extends ClassLoader {
     }
 
     public static void main(String[] args) throws Exception {
-        Path path = Path.of("/chemin/vers/classes");
+        //Path path = Path.of("/chemin/vers/classes");
+        Path path = Path.of("src/main/java/com/improvemyskills/javaavance/classloaders/Customer.java");
         MyClassLoader loader = new MyClassLoader(path);
 
         // Charger la classe dynamiquement
-        Class<?> clazz = loader.loadClass("com.example.MyClass");
+        //Class<?> clazz = loader.loadClass("com.example.MyClass");
+        Class<?> clazz = loader.loadClass("com.improvemyskills.javaavance.classloaders.Customer");
         Object instance = clazz.getDeclaredConstructor().newInstance();
         System.out.println("Classe chargée : " + clazz.getName());
     }
