@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0c74cd-7ba6-450c-9c78-4a8f6afb30f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/patternmatching/Day.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/tests/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/improvemyskills/javaavance/BankAccountTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/patternmatching/SwitchExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/patternmatching/SwitchExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/patternmatching/SwitchPatternMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/patternmatching/SwitchPatternMatching.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/improvemyskills/javaavance/BankAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/improvemyskills/javaavance/BankAccountTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
