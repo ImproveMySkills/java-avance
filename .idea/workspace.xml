@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0c74cd-7ba6-450c-9c78-4a8f6afb30f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/classloaders/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/patternmatching/PatternMatchingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/patternmatching/SwitchExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/patternmatching/SwitchPatternMatching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/patternmatching/SwitchYieldExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/patternmatching/Day.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/tests/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/improvemyskills/javaavance/BankAccountTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/classloaders/MyClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/classloaders/MyClassLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/patternmatching/SwitchExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/patternmatching/SwitchExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/patternmatching/SwitchPatternMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/improvemyskills/javaavance/patternmatching/SwitchPatternMatching.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -51,40 +51,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "21",
-    "last_opened_file_path": "C:/Users/ahabouba/IdeaProjects/java-avance",
+    "last_opened_file_path": "C:/Users/ahabouba/IdeaProjects/Codingame",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SwitchPatternMatching">
-    <configuration name="CompletableFutureExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.improvemyskills.javaavance.completatblefuture.CompletableFutureExample" />
-      <module name="java-avance" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.improvemyskills.javaavance.completatblefuture.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExampleWithoutSynchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.improvemyskills.javaavance.synchronization.ExampleWithoutSynchronized" />
-      <module name="java-avance" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.improvemyskills.javaavance.synchronization.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.BankAccountTest">
     <configuration name="ForkJoinExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.improvemyskills.javaavance.forkjoin.ForkJoinExample" />
       <module name="java-avance" />
@@ -128,20 +102,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BankAccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-avance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.improvemyskills.javaavance.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.improvemyskills.javaavance" />
+      <option name="MAIN_CLASS_NAME" value="com.improvemyskills.javaavance.BankAccountTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankAccountTest.testDeposit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-avance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.improvemyskills.javaavance.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.improvemyskills.javaavance" />
+      <option name="MAIN_CLASS_NAME" value="com.improvemyskills.javaavance.BankAccountTest" />
+      <option name="METHOD_NAME" value="testDeposit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.SwitchPatternMatching" />
-      <item itemvalue="Application.CompletableFutureExample" />
-      <item itemvalue="Application.ExampleWithoutSynchronized" />
       <item itemvalue="Application.ForkJoinExample" />
       <item itemvalue="Application.MyClassLoader" />
+      <item itemvalue="JUnit.BankAccountTest" />
+      <item itemvalue="JUnit.BankAccountTest.testDeposit" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BankAccountTest" />
+        <item itemvalue="JUnit.BankAccountTest.testDeposit" />
         <item itemvalue="Application.SwitchPatternMatching" />
         <item itemvalue="Application.MyClassLoader" />
         <item itemvalue="Application.ForkJoinExample" />
-        <item itemvalue="Application.CompletableFutureExample" />
-        <item itemvalue="Application.ExampleWithoutSynchronized" />
       </list>
     </recent_temporary>
   </component>
